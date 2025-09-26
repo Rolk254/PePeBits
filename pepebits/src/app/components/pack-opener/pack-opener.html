@@ -1,0 +1,4 @@
+<button mat-raised-button color="accent" (click)="openPack()">Abrir sobre</button>
+<div class="pack-grid">
+  <app-card *ngFor="let card of openedCards" [card]="card"></app-card>
+</div>

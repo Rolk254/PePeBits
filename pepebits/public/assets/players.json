@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Lionel Messi", "team": "PSG", "rarity": "legend" },
+  { "id": 2, "name": "Cristiano Ronaldo", "team": "Al Nassr", "rarity": "legend" },
+  { "id": 3, "name": "Kylian Mbappé", "team": "PSG", "rarity": "epic" },
+  { "id": 4, "name": "Kevin De Bruyne", "team": "Manchester City", "rarity": "epic" },
+  { "id": 5, "name": "Erling Haaland", "team": "Manchester City", "rarity": "rare" }
+]

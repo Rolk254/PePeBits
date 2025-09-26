@@ -1,0 +1,9 @@
+<mat-toolbar color="primary">
+  <span>PePeBits</span>
+  <span class="spacer"></span>
+  <a mat-button routerLink="/">Home</a>
+  <a mat-button routerLink="/collection">Mi Colección</a>
+  <span *ngIf="auth.isLogged()">{{ auth.getUser() }}</span>
+  <button mat-button *ngIf="auth.isLogged()" (click)="logout()">Logout</button>
+  <a mat-button *ngIf="!auth.isLogged()" routerLink="/login">Login</a>
+</mat-toolbar>
